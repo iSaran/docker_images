@@ -21,3 +21,11 @@ Run by using this script:
 ```
 
 This script will run the docker image.
+
+## Open a new terminal
+
+If you want to open a new bash session within the already started container run in another terminal:
+
+```bash
+./new_bash.sh
+```
