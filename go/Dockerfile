@@ -1,4 +1,7 @@
 FROM golang
+
+MAINTAINER Iason Sarantopoulos  <iason@sarantop.com>
+
 # expose port
 EXPOSE 8080
 RUN apt-get update

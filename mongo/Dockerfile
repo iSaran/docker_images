@@ -16,8 +16,6 @@ EXPOSE 27017
 
 # Install my dotfiles
 RUN apt-get -yy install git
-
-# Install my dotfiles
 RUN mkdir /.dotfiles
 RUN git clone https://github.com/isaran/dotfiles.git /.dotfiles && /.dotfiles/install.sh
 
