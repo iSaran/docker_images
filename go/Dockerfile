@@ -6,4 +6,4 @@ RUN apt-get -yy install git sudo
 
 # Install my dotfiles
 RUN mkdir /.dotfiles
-RUN git clone https://github.com/isaran/dotfiles.git /.dotfiles --branch golang-devel && /.dotfiles/install.sh
+RUN git clone https://github.com/isaran/dotfiles.git /.dotfiles && /.dotfiles/install.sh
